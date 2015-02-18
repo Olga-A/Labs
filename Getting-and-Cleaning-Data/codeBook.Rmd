@@ -1,0 +1,39 @@
+---
+title: "CodeBook"
+date: "17/02/2015"
+output: html_document
+---
+
+path - absolute path to directory with Samsung Data
+
+activityTest - data from 'Y_test.txt'
+
+subjectTest - data from 'subject_test.txt'
+
+featuresTest - data from 'X_test.txt'
+
+activityTrain - data from 'Y_train.txt'
+
+subjectTrain - data from 'subject_train.txt'
+
+featuresTrain - data from 'X_train.txt'
+
+activity - merged train and test data for activity (Y_test and Y_train)
+
+subject - merged train and test data for subject (subject_test and subject_train)
+
+features - merged train and test data for features (X_test and X_train)
+
+featuresNames - data from features.txt
+
+features_mean_and_std - data filtered from 'features' data frame and containing         only mean and std measurment
+
+data - merded 'activity', 'subject' and 'features_mean_and_std' data
+
+activity_labels - data from 'activity_labels.txt'
+
+tidyData - tidy data set with the average of each variable for each activity and each subject, created from 'data'
+
+
+
+
